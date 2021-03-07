@@ -76,6 +76,7 @@ APPLICATIONS=(
   visual-studio-code
   telegram
   whatsapp
+  vlc
   zoom
 )
 
