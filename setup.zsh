@@ -17,7 +17,11 @@ brewCaskInstall() {
 }
 
 # Setup zsh as default shell
-chsh -s /bin/zsh
+if [[ $SHELL != "/bin/zsh" ]]
+then
+  echo "Changing default shell to zsh"
+  chsh -s /bin/zsh
+fi
 
 # Installing Homebrew
 
@@ -87,3 +91,5 @@ do
 done
 
 brew cleanup
+
+echo "Hombrew installation complete"
