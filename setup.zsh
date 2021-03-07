@@ -16,6 +16,9 @@ brewCaskInstall() {
   brew install --cask $1
 }
 
+# Setup zsh as default shell
+chsh -s /bin/zsh
+
 # Installing Homebrew
 
 # Check for Homebrew and install
