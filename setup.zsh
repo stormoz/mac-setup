@@ -71,6 +71,7 @@ APPLICATIONS=(
   brave-browser
   dbeaver-community
   docker
+  drawio
   github
   google-chrome
   iterm2
