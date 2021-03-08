@@ -43,11 +43,18 @@ PACKAGES=(
   gnupg
   grep
   git
+  jq
   kubectl
   kubectx
+  python
+  python3
   tree
   vim
   wget
+  zsh
+  zsh-completions
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 for package in "${PACKAGES[@]}"
