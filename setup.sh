@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 echo "Setting up a new mac book"
 
