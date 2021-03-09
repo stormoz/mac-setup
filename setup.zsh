@@ -4,13 +4,6 @@ echo "Setting up a new mac book"
 
 DOTFILES_DIR=$HOME/.dotfiles
 
-if [ -d "$DOTFILES_DIR" ]
-then
-    echo "Directory /path/to/dir exists."
-else
-    echo "Error: Directory /path/to/dir does not exists."
-fi
-
 # Check if xcode-select —-install is installed
 
 # Supporting Functions
