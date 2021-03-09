@@ -51,6 +51,7 @@ PACKAGES=(
   jq
   kubectl
   kubectx
+  nuget
   nvm
   python
   python3
