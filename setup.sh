@@ -3,6 +3,8 @@
 echo "Setting up a new mac book"
 
 DOTFILES_DIR=$HOME/.dotfiles
+GIT_USER_NAME=$1
+GIT_USER_EMAIL=$2
 
 # Check if xcode-select —-install is installed
 
@@ -124,5 +126,7 @@ else
 fi
 
 cd $DOTFILES_DIR
-/bin/bash script/bootstrap
+/bin/bash script/bootstrap $GIT_USER_NAME $GIT_USER_EMAIL
 /bin/bash script/install
+
+# Setup ssh
