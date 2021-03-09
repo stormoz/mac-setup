@@ -124,5 +124,5 @@ else
 fi
 
 cd $DOTFILES_DIR
-script/bootstrap
-script/install
+/bin/bash script/bootstrap
+/bin/bash script/install
