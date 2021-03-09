@@ -3,6 +3,8 @@
 echo "Setting up a new mac book"
 
 DOTFILES_DIR=$HOME/.dotfiles
+WORK_CODE_DIR=$HOME/Work/Code
+CODE_DIR=$HOME/Code
 
 # Check if xcode-select —-install is installed
 
@@ -106,8 +108,8 @@ brew cleanup
 
 echo "Hombrew installation complete"
 
-mkdir -p ~/Work/Code # Work Code
-mkdir -p ~/Code # Personal Code
+mkdir -p $WORK_CODE_DIR # Work Code
+mkdir -p $CODE_DIR # Personal Code
 
 
 echo "Setting up dotfiles"
@@ -126,3 +128,8 @@ fi
 cd $DOTFILES_DIR
 sudo /bin/bash script/bootstrap
 sudo /bin/bash script/install
+
+echo "Clone this repository into $CODE_DIR"
+cd $CODE_DIR
+git clone https://github.com/ygnr/mac-setup.git
+cd $HOME
