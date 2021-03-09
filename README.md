@@ -10,6 +10,6 @@ Install Vscode extensions
 
 ```
 cd $HOME/Code
-chmod +x ./vscode/install.sh
-./vscode/install.sh
+chmod +x ./vscode/mac-setup/install.sh
+./vscode//mac-setup/install.sh
 ```
