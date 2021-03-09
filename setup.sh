@@ -113,7 +113,7 @@ echo "Hombrew installation complete"
 
 mkdir -p $WORK_CODE_DIR # Work Code
 mkdir -p $CODE_DIR # Personal Code
-mkdir NVM_DIR #nvm dir
+mkdir $NVM_DIR #nvm dir
 
 
 echo "Setting up dotfiles"
