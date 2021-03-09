@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 echo "Setting up a new mac book"
 
@@ -120,7 +120,7 @@ then
   cd $HOME
 else
   echo "Dotfiles does not exists, installing"
-  git clone https://github.com/ygnr/dotfiles.git ~/.dotfiles
+  git clone https://github.com/ygnr/dotfiles.git $DOTFILES_DIR
 fi
 
 cd $DOTFILES_DIR
