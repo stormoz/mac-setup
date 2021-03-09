@@ -46,7 +46,6 @@ dbaeumer.vscode-eslint
 davidanson.vscode-markdownlint
 miclo.sort-typescript-imports
 amatiasq.sort-imports
-vscodevim.vim
 wayou.vscode-todo-highlight
 waderyan.gitblame
 pkief.material-icon-theme
