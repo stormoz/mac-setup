@@ -52,3 +52,8 @@ Copy pubkey to clipboard
 ```
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
+
+## Install node
+```
+nvm install node
+```

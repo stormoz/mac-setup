@@ -145,6 +145,3 @@ else
   git clone https://github.com/ygnr/mac-setup.git
   cd $HOME
 fi
-
-echo "Installing node"
-nvm install node
