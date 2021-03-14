@@ -146,3 +146,6 @@ else
   git clone https://github.com/ygnr/mac-setup.git
   cd $HOME
 fi
+
+echo "Change to ssh"
+git remote set-url origin git@github.com:ygnr/mac-setup.git

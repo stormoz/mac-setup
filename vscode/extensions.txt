@@ -44,8 +44,6 @@ vscode-icons-team.vscode-icons
 redhat.vscode-xml
 dbaeumer.vscode-eslint
 davidanson.vscode-markdownlint
-miclo.sort-typescript-imports
-amatiasq.sort-imports
 wayou.vscode-todo-highlight
 waderyan.gitblame
 pkief.material-icon-theme
