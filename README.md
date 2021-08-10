@@ -10,8 +10,8 @@ bash <(curl -H "Cache-Control: no-cache, no-store, must-revalidate" https://raw.
 
 ```
 cd $HOME/Code
-chmod +x ./vscode/mac-setup/install.sh
-./vscode//mac-setup/install.sh
+chmod +x ./vscode/install.sh
+./vscode/install.sh
 ```
 
 ## Setup ssh
@@ -48,7 +48,7 @@ Add your SSH private key to the ssh-agent and store your passphrase in the keych
 ssh-add -K ~/.ssh/id_ed25519
 ```
 
-Copy pubkey to clipboard
+Copy pubkey to clipboard and update github ssh key
 ```
 pbcopy < ~/.ssh/id_ed25519.pub
 ```

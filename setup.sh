@@ -90,6 +90,7 @@ APPLICATIONS=(
   microsoft-azure-storage-explorer
   pgadmin4
   postman
+  rider
   robo-3t
   slack
   sourcetree
