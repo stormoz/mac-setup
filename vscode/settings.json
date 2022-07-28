@@ -2,7 +2,6 @@
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.renderIndentGuides": true,
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "workbench.settings.editor": "json",
@@ -17,7 +16,6 @@
     "**/.DS_Store": true,
     "**/node_modules": true
   },
-  "window.zoomLevel": 0,
   "editor.fontSize": 12.5,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Andromeda Colorizer",
@@ -162,5 +160,10 @@
   "terminal.integrated.shellArgs.osx": [],
   "workbench.editor.showTabs": true,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+  },
+  "editor.guides.indentation": true,
+  "diffEditor.ignoreTrimWhitespace": false
 }
