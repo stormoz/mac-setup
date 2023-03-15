@@ -59,6 +59,7 @@ PACKAGES=(
   nvm
   python
   python3
+  python@3.9
   tree
   vim
   wget
