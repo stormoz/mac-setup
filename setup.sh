@@ -144,8 +144,8 @@ else
   echo "Mac setup does not exists, installing"
   cd $CODE_DIR
   git clone https://github.com/ygnr/mac-setup.git
+  cd mac-setup
+  echo "Change to ssh"
+  git remote set-url origin git@github.com:ygnr/mac-setup.git
   cd $HOME
 fi
-
-echo "Change to ssh"
-git remote set-url origin git@github.com:ygnr/mac-setup.git
