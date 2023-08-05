@@ -81,7 +81,6 @@ done
 APPLICATIONS=(
   adobe-acrobat-reader
   alfred
-  brave-browser
   dbeaver-community
   docker
   dotnet-sdk
@@ -91,19 +90,14 @@ APPLICATIONS=(
   iterm2
   kdiff3
   lastpass
-  lens
   microsoft-azure-storage-explorer
   pgadmin4
   postman
   rider
-  robo-3t
   slack
   sourcetree
-  spotify
   sublime-text
   visual-studio-code
-  telegram
-  whatsapp
   vlc
   zoom
 )
