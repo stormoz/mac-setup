@@ -52,6 +52,7 @@ PACKAGES=(
   gnupg
   grep
   git
+  java
   jq
   kubectl
   kubectx
