@@ -9,7 +9,7 @@ bash <(curl -H "Cache-Control: no-cache, no-store, must-revalidate" https://raw.
 ## Install Vscode extensions
 
 ```
-cd $HOME/Code
+cd $HOME/Code/mac-setup
 chmod +x ./vscode/install.sh
 ./vscode/install.sh
 ```
