@@ -81,26 +81,19 @@ done
 # Install MacOs Applications
 APPLICATIONS=(
   adobe-acrobat-reader
-  alfred
   dbeaver-community
   docker
   dotnet-sdk
-  drawio
   github
   google-chrome
   iterm2
-  kdiff3
-  lastpass
   microsoft-azure-storage-explorer
   pgadmin4
   postman
   rider
-  slack
   sourcetree
   sublime-text
   visual-studio-code
-  vlc
-  zoom
 )
 
 for application in "${APPLICATIONS[@]}"
