@@ -69,6 +69,7 @@ PACKAGES=(
   zsh-completions
   zsh-syntax-highlighting
   zsh-autosuggestions
+  drawio
 )
 
 for package in "${PACKAGES[@]}"
