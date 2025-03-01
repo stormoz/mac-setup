@@ -70,6 +70,7 @@ PACKAGES=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   drawio
+  mongodb-compass
 )
 
 for package in "${PACKAGES[@]}"
