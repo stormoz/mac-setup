@@ -82,17 +82,12 @@ done
 APPLICATIONS=(
   adobe-acrobat-reader
   dbeaver-community
+  iterm
   docker
   dotnet-sdk
-  github
-  google-chrome
-  iterm2
   microsoft-azure-storage-explorer
-  pgadmin4
   postman
   rider
-  sourcetree
-  sublime-text
   visual-studio-code
 )
 
@@ -121,7 +116,7 @@ then
   cd $HOME
 else
   echo "Dotfiles does not exists, installing"
-  git clone https://github.com/ygnr/dotfiles.git $DOTFILES_DIR
+  git clone https://github.com/stormoz/dotfiles.git $DOTFILES_DIR
 fi
 
 cd $DOTFILES_DIR
@@ -137,9 +132,9 @@ then
 else
   echo "Mac setup does not exists, installing"
   cd $CODE_DIR
-  git clone https://github.com/ygnr/mac-setup.git
+  git clone https://github.com/stormoz/mac-setup.git
   cd mac-setup
   echo "Change to ssh"
-  git remote set-url origin git@github.com:ygnr/mac-setup.git
+  git remote set-url origin git@github.com:stormoz/mac-setup.git
   cd $HOME
 fi
